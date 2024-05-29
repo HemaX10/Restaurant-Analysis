@@ -1,4 +1,4 @@
-# Data Analysis Project: Restaurant order Data
+# Data Analysis Project: Food Delivery Cost and Profitability
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -8,22 +8,29 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-This project is a detailed data analysis of food delivery cost data obtained from Kaggle. The objective is to uncover insightful patterns and trends that can help business owners make informed decisions.
+This project is a detailed data analysis of the Food Delivery Cost and Profitability dataset obtained from Kaggle. The objective is to answer specific business questions and uncover insightful patterns related to discounts, order times, and order frequency.
 
 ## Dataset
-The dataset used in this project can be found on Kaggle: [Global Sales Data](https://www.kaggle.com/global-sales-data). It contains sales data from various regions over the past 5 years.
+The dataset used in this project can be found on Kaggle: [Food Delivery Cost and Profitability](https://www.kaggle.com/your-dataset-link). It includes data on food delivery orders, costs, discounts, and profitability metrics.
 
 ## Analysis Process
-The analysis process consists of several steps:
-1. **Data Cleaning:** Handling missing values, removing duplicates, and normalizing data.
-2. **Exploratory Data Analysis:** Generating descriptive statistics and visualizing data using matplotlib and seaborn.
-3. **Key Insights:** Uncovering patterns and trends, such as seasonal sales trends and customer behavior patterns.
+The analysis process consists of several steps to answer the following questions:
+1. **How many discounts and the number of the discounts given?**
+    - Identified the total number of discounts and categorized them by discount value.
+2. **What is the average time of any order and its relation to the order value?**
+    - Calculated the average order time and analyzed its correlation with the order value.
+3. **What is the relation between the day of the week and the number of orders?**
+    - Analyzed the order frequency across different days of the week to identify patterns.
 
 ## Results
 Key findings from the analysis include:
-- Products with the highest sales during different seasons
-- Main factors influencing customer satisfaction
-- Sales performance across various regions
+- **Discount Analysis:** Identified [X number] of discounts given, with the following distribution: [distribution details].
+- **Order Time and Value Relationship:** The average order time is [X minutes], and there is a [positive/negative] correlation between order time and order value.
+- **Weekly Order Patterns:** The highest number of orders occurs on [specific day(s)], while the lowest occurs on [specific day(s)].
+
+For a detailed report, refer to the `results` directory.
 
 ## Acknowledgements
 - Thanks to [Kaggle](https://www.kaggle.com) for providing the dataset.
+- Special thanks to my mentors and peers for their support and guidance.
+t.
